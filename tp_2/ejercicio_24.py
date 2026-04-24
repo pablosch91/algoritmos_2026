@@ -9,7 +9,7 @@ from random import randint, choice
 
 pila = Stack()
 
-nombres = ["Iron Man", "Captain America", "Thor", "Hulk", "Black Widow", "Groot", "Rocket Raccoon", "Doctor Strange", "Captain Marvel", "Drax", "Gamora"]
+nombres = ['Iron Man', 'Captain America', 'Thor', 'Hulk', 'Black Widow', 'Groot', 'Rocket Raccoon', 'Doctor Strange', 'Captain Marvel', 'Drax', 'Gamora']
 
 for i in range(10):
     nombre = choice(nombres)
@@ -76,7 +76,7 @@ else:
     print('No hay personajes con más de 5 películas')
 
 if pelis_black_widow is not None:
-    print("Black Widow participó en:", pelis_black_widow, 'películas')
+    print('Black Widow participó en:', pelis_black_widow, 'películas')
 else:
     print('Black Widow no está en la pila')
 

@@ -28,7 +28,7 @@ class Stack:
   def pop(self) -> Any:
     return self.__elements.pop()
   
-  # mostrar
+  # mostrar, necesitamos listar para chequear aunque no sea una actividad natural
   def show(self):
     #print(self.__elements) no es del todo correcto porque en teoría no tengo acceso a todos los elementos, solo al de la cima
     stack_aux = Stack()
@@ -95,5 +95,3 @@ class Stack:
 # # no estamos respetando la naturaleza o principio de la pila, tenemos que garantizar que se cumpla el principio de funcionamiento: si quiero quitar elementos, tengo que empezar por el último, no puedo administrarlos como quiera
 
 # # logramos restringir y asegurar que la estructura se va a comportar como queremos sino el comportamiento iba a quedar sujeto a lo que haga el desarrollador y no es la idea
-
-# # necesitamos listar para chequear aunque no sea una actividad natural
